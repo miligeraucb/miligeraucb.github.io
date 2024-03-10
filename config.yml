@@ -1,10 +1,7 @@
 title: Mili Gera
 #logo: 
 description: Project Por
-#remote_theme: daattali/beautiful-jekyll@6.0.1
 remote_theme: "mmistakes/so-simple-theme@3.2.0"
 #show_downloads: true
-#theme: jekyll-theme-minimal
-#theme: jekyll-theme-freelancer-theme
-#remote_theme: Hyde
-#remote_theme: THEME-NAME
+
+
