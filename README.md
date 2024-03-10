@@ -1,6 +1,7 @@
-
-
-### Work Experience
+---
+layout: page
+title: Work Experience
+---
 
 
 
