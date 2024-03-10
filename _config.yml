@@ -2,13 +2,18 @@
 #remote_theme: amitmerchant1990/reverie
 remote_theme: poole/hyde
 
-name: Project Samples
+---
+layout: page
+title: About
+---
+
+#name: Project Samples
 
 # Name of the author
-author: Mili Gera
+#author: Mili Gera
 
 # Short bio or description (displayed in the header)
-description: Sample data science projects
+#description: Sample data science projects
 
 # URL 
-avatar: miligeraucb.github.io/images/camp.jpeg
+#avatar: miligeraucb.github.io/images/camp.jpeg
