@@ -4,7 +4,7 @@
 
 layout: home
 title: Home
-banner: "/assets/images/banners/camp.jpeg"
+banner: "/assets/images/banners/defaultban.jpeg"
 
 ---
 
