@@ -1,6 +1,7 @@
 #remote_theme: "mmistakes/so-simple-theme@3.2.0"
 #remote_theme: amitmerchant1990/reverie
-remote_theme: poole/hyde
+#remote_theme: poole/hyde
+remote_theme: jeffreytse/jekyll-theme-yat
 
 
 
