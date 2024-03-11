@@ -1,1 +1,6 @@
-# Title of home
+---
+layout: page
+title: Home
+---
+
+
