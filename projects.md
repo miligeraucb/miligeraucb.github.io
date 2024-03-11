@@ -19,4 +19,11 @@ title: Projects
 
 ## Data Engineering/ETL Pipeline
 
+#### Climate Change Tweet Extraction
+**Purpose**
+- To do this
+  
+**Technique/Model**
+- This technique
+
 ## Privacy Blog
