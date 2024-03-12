@@ -10,7 +10,9 @@ title: About
 **Cell**: 510-449-2716  
 
 ![Linked In Image](https://github.com/miligeraucb/miligeraucb.github.io/blob/main/assets/images/banners/linkedin_icon_small.jpg (https://www.linkedin.com/in/miligera/)) 
-   [LinkedIn](https://www.linkedin.com/in/miligera/)
+   [LinkedIn](https://www.linkedin.com/in/miligera/)  
+   
+<img src="/assets/images/banners/linkedin_icon_small.jpg" alt="Description of the image">
 
 
 
