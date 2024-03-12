@@ -1,11 +1,18 @@
 ---
 layout: about
 title: About
+image: "/assets/images/banners/vase.jpg"
 ---
+
+## Contact Information
+email: miligera@gmail.com
+cell: 510-449-2716
+linkedin: https://www.linkedin.com/in/miligera/
 
 ## Experience
 I have 15+ years in the technology industry. My career path includes 10+ years of product management/strategy,
 prototype creation and innovations focused on automating complex healthcare processes.
+
 ## Education
 **Master of Information and Data Science**  
 University of California at Berkeley  
