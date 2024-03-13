@@ -8,7 +8,7 @@ title: Projects
 
 ### Speech-to-Speech Voice Cloning  
 *Team: Mili Gera, Tian Zhu, YuCheng Liu*  
-
+---
 **<ins>Purpose</ins>**
 
 - Generate high-quality voice clones with minimal voice data.
