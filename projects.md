@@ -3,21 +3,43 @@ layout: post
 title: Projects
 ---
 ## Machine Learning/Deep Learning
+<img align="left" src="assets/images/banners/mike.jpg"/>  
+<br clear="left"/>  
 
-### Speech-to-Speech Voice Cloning
+### Speech-to-Speech Voice Cloning  
+*Team: Mili Gera, Tian Zhu, YuCheng Liu*  
 
+**<ins>Purpose</ins>**
 
-**Purpose**  
+- Generate high-quality voice clones with minimal voice data.
+- For this purpose, synthesize a new hybrid model for voice cloning and test performance against an open-source baseline model.  
+- Some use case include the following: 
 
-- For those who have lost the ability to speak,
-generate speech in their own voice using
-archived audio clips.  
-- Clone celebrity voices for brand expansion
-and engagement.
+   - For those who have lost the ability to speak, generate speech in their own voice using archived audio clips.  
+   - Clone celebrity voices for brand expansion and engagement.
   
-**Technique/Model/Metrics**
+**<ins>Technique (Model), Technology, and Metrics</ins>**  
 
+*Technique*
 
+*Technology*
+- Models used
+  - HuBERT
+  - TACITRON-2
+  - Hi-Fi GAN
+  - Combined HuBERT and VITS model (**our team created a new hybrid model**)
+- Python
+- Amazon Web Services (AWS)
+- Amazon SageMaker Studio
+- Jupyter Notebook
+
+*Metrics*  
+- Word Error Rate, Word Information Lost, Mean Opinion Score
+  
+**<ins>Results Extract</ins>**
+
+- Our newly-created hybrid model performs better than open-source baseline model with less data.
+- Our newly-created hybrid model has a higher mean opinion score
 
 ### Hate Speech Detection
 **Purpose**
@@ -56,11 +78,12 @@ and engagement.
 
 
 
-**<ins>Statistical Test/Technology</ins>**
+**<ins> Technique(Statistical Test),Technology, Metric or Statistical Measure </ins>**
   - Wilcoxon Rank-Sum Test
   - R Programming
+  - p-value, Z-score
 
-**<ins>Hypothesis Data and Results Extracts</ins>** 
+**<ins>Hypothesis, Data and Results Extracts</ins>** 
 
 
 *Hypothesis*
