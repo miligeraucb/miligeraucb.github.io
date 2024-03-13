@@ -2,19 +2,27 @@
 layout: post
 title: Projects
 ---
-## Machine Learning
-### Project Amplify
+## Machine Learning/Deep Learning
+### Speech-to-Speech Voice Cloning
+---
+<hr style="border: 7px red">
 **Purpose**
-- To do this
+- For those who have lost the ability to speak,
+generate speech in their own voice using
+archived audio clips.
+
+- Clone celebrity voices for brand expansion
+and engagement.
   
-**Technique/Model**
-- BERT
+**Technique/Model/Metrics**
+
+
 
 ### Hate Speech Detection
 **Purpose**
 - To do this
   
-**Technique/Model**
+**Technique/Model/Metrics**
 - BERT
 
 ## Data Engineering/ETL Pipeline
@@ -24,7 +32,7 @@ title: Projects
 - To do this
   
 **Technique/Model**
-- This technique
+
 
 ## Statistical Analysis
 
@@ -39,15 +47,16 @@ title: Projects
 
 **Hypothesis Data and Results Extracts** 
 
-**Hypothesis**
+
+<ins>**Hypothesis**</ins>
 - The null hypothesis was that Democrats and Republicans reported an equal amount of difficulty in voting in
 the 2020 election. Stated more formally, if we think about level of difficulty for Republicans as the variable X
 and difficulty for Democrats as variable Y, then the null hypothesis would be that P(X<Y) = P(X>Y).
 
-**Data**
+<ins>**Data Overview**</ins>
   - We used data from the American National Election Studies (ANES) Time Series study.
     
-**Results**
+<ins>**Results Overview**</ins>
   - Our results for the Wilcoxon Rank Sum test showed a p-value of .01578. This value exceeds our threshold of
 rejection of the null (which is at 0.05). Therefore, per the p value we can reject the null hypothesis. In other
 words, we can say that Republicans and Democrats had a differing level of reported difficulty in voting. Note
