@@ -38,7 +38,8 @@ and engagement.
 ## Statistical Analysis
 
 
-<img align="left" src="assets/images/banners/vote.jpg"/> 	<h3>Voting Difficulty in the 2020 US Elections</h3>
+<img align="left" src="assets/images/banners/vote.jpg"/> 	<h3>Voting Difficulty in the 2020 US Elections</h3>  
+
 <br clear="left"/>  
 
 
