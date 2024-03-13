@@ -5,7 +5,9 @@ title: About
 ---
 
 ## Contact Information
- 
+
+<a href="{{ site.data.social-media.email.href }}{{ site.data.social-media.email.id }}" title="Email me">Click here to send me an email!</a>  
+
 **Email**: miligera@gmail.com  
 **Cell**: 510-449-2716  
 
