@@ -3,14 +3,15 @@ layout: post
 title: Projects
 ---
 ## Machine Learning/Deep Learning
+![Vote](assets/images/banners/vote.jpg)
 ### Speech-to-Speech Voice Cloning
----
-<hr style="border: 7px red">
-**Purpose**
+
+
+**Purpose**  
+
 - For those who have lost the ability to speak,
 generate speech in their own voice using
-archived audio clips.
-
+archived audio clips.  
 - Clone celebrity voices for brand expansion
 and engagement.
   
