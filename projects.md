@@ -3,7 +3,7 @@ layout: post
 title: Projects
 ---
 ## Machine Learning/Deep Learning
-![Vote](assets/images/banners/vote.jpg)
+
 ### Speech-to-Speech Voice Cloning
 
 
@@ -37,9 +37,18 @@ and engagement.
 
 ## Statistical Analysis
 
+<img align="left" src="assets/images/banners/vote.jpg">  
+
 ### Voting Difficulty in the 2020 US Elections
+
+
+
+
 **Purpose**
 - Did Democratic voters or Republican voters report experiencing more difficulty voting in the 2020 election?
+<br clear="left"/> 
+
+
 
 
 **Statistical Test/Technology**
