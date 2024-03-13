@@ -46,7 +46,12 @@ and engagement.
 
 **Purpose**
 - Did Democratic voters or Republican voters report experiencing more difficulty voting in the 2020 election?
+  
 <br clear="left"/> 
+
+
+
+
 
 
 
