@@ -38,10 +38,11 @@ and engagement.
 ## Statistical Analysis
 
 
-<img align="top" src="assets/images/banners/vote.jpg"/>  
+<img align="left" src="assets/images/banners/vote.jpg"/>  
+<br clear="left"/>  
 
 ### Voting Difficulty in the 2020 US Elections
-<br clear="left"/>  
+
 
 **<ins>Purpose</ins>**
 - Did Democratic voters or Republican voters report experiencing more difficulty voting in the 2020 election?
