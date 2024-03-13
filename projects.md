@@ -39,16 +39,19 @@ and engagement.
 
 <img align="left" src="assets/images/banners/vote.jpg"/>  
 
-
 ### Voting Difficulty in the 2020 US Elections
+<br clear="left"/>  
 
 
 
 
-**Purpose**
+
+
+
+
+**<ins>Purpose</ins>**
 - Did Democratic voters or Republican voters report experiencing more difficulty voting in the 2020 election?
   
-<br clear="left"/> 
 
 
 
@@ -57,22 +60,23 @@ and engagement.
 
 
 
-**Statistical Test/Technology**
+
+**<ins>Statistical Test/Technology</ins>**
   - Wilcoxon Rank-Sum Test
   - R Programming
 
-**Hypothesis Data and Results Extracts** 
+**<ins>Hypothesis Data and Results Extracts</ins>** 
 
 
-<ins>**Hypothesis**</ins>
+*Hypothesis*
 - The null hypothesis was that Democrats and Republicans reported an equal amount of difficulty in voting in
 the 2020 election. Stated more formally, if we think about level of difficulty for Republicans as the variable X
 and difficulty for Democrats as variable Y, then the null hypothesis would be that P(X<Y) = P(X>Y).
 
-<ins>**Data Overview**</ins>
+*Data Overview*
   - We used data from the American National Election Studies (ANES) Time Series study.
     
-<ins>**Results Overview**</ins>
+*Results Overview*
   - Our results for the Wilcoxon Rank Sum test showed a p-value of .01578. This value exceeds our threshold of
 rejection of the null (which is at 0.05). Therefore, per the p value we can reject the null hypothesis. In other
 words, we can say that Republicans and Democrats had a differing level of reported difficulty in voting. Note
