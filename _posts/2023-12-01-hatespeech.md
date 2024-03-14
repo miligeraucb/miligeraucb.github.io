@@ -7,8 +7,8 @@ tags: naturallanguageprocessing
 ---
 
 *Team members - Mili Gera, Jared Dec, Devashish Kulkarni*  
+![hatespeech](/assets/images/banners/hatespeech.jpg)  
 
-![mike](/assets/images/banners/hatespeech.jpg)
 
 ## Purpose
 - Some purpose here
