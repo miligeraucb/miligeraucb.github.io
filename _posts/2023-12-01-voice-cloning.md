@@ -7,14 +7,15 @@ banner:
 
 tags: machinelearning deeplearning 
 ---
+Generate high-quality voice-clones of any target voice.
 
-## Machine Learning/Deep Learning
+### Speech-to-Speech Voice Cloning  
+*Team: Mili Gera, Tian Zhu, YuCheng Liu* 
+
 <img align="left" src="assets/images/banners/mike.jpg"/>  
 <br clear="left"/>  
 
-### Speech-to-Speech Voice Cloning  
-*Team: Mili Gera, Tian Zhu, YuCheng Liu*  
-
+ 
 **<ins>Purpose</ins>**
 
 - Generate high-quality voice clones with minimal voice data.
