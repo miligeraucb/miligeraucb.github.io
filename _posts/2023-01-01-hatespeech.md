@@ -41,11 +41,13 @@ tags: [naturallanguageprocessing, largelanguagemodel, llm, deeplearning, machine
 
 **<ins>*LaBSE Model*</ins>**  
 
+![labse](/assets/images/banners/labse.jpg)
+
 ### Technology
 - Models used
-  - LabSE
+  - LaBSE
+  - LaBSE with CNN
   - mBERT
-  - CNN
 - Python
 - Keras
 - TensorFlow
