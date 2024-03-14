@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Speech-to-Speech Voice Cloning
-categories: [deeplearning, machinelearning]
+categories: [deep learning, machine learning]
 excerpt_image: assets/images/banners/mike.jpg
 tags: [machinelearning, deeplearning]
 ---
