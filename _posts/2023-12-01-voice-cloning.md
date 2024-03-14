@@ -8,21 +8,19 @@ excerpt_image: assets/images/banners/mike.jpg
 
 tags: machinelearning deeplearning 
 ---
-
-
-
-
-Generate high-quality voice-clones of any target voice.
-<img align="left" src="assets/images/banners/mike.jpg"/>  
-<br clear="left"/>
+![mike](/assets/images/banners/mike.jpg) 
 
 ## Purpose
 
+ 
+
+
 
 - Generate high-quality voice clones with minimal voice data.
-- For this purpose, synthesize a new hybrid model for voice cloning and test performance against an open-source baseline model.  
+  
+- For this purpose, synthesize a new hybrid model for voice cloning and test performance against an open-source baseline model.
+  
 - Some use case include the following: 
-
    - For those who have lost the ability to speak, generate speech in their own voice using archived audio clips.  
    - Clone celebrity voices for brand expansion and engagement.
   
