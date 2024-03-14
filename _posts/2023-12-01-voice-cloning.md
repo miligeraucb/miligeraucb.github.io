@@ -6,9 +6,8 @@ categories: deeplearning machinelearning
 excerpt_image: assets/images/banners/mike.jpg
 tags: machinelearning deeplearning 
 ---
-
-
-![mike](/assets/images/banners/mike.jpg) 
+![mike](/assets/images/banners/mike.jpg)
+ 
 
 ## Purpose
 
