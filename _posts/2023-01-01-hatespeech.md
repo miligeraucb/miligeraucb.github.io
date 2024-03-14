@@ -13,7 +13,7 @@ tags: [naturallanguageprocessing, largelanguagemodel, llm, deeplearning, machine
 
 - There is a need for hate speech detection techniques in languages other than English.
 - Compared the applicability of various transformer based language models on two linguistically different languages (as opposed to maximizing a single metric like an F1 score).
-- Focused the investigation on Hindi, which is close in both cultural expression and linguistic relation to English, and Korean, which has more subtle hate expression and nolinguistic relation to Western languages. 
+- Focused the investigation on Hindi, which is close in both cultural expression and linguistic relation to English, and Korean, which has more subtle hate expression and no linguistic relation to Western languages. 
 
 ## Hypothesis and Data
 
@@ -60,6 +60,16 @@ tags: [naturallanguageprocessing, largelanguagemodel, llm, deeplearning, machine
 - Recall
 
 ## Results Overview
+
+**<ins>*Confusion Matrices*</ins>** 
+![hate speech results](/assets/images/banners/hatespeechresults.jpg)  
+
+**<ins>*Discussion*</ins>**
+
+- We found that a strong baseline can be achieved using the mBERT model for both Korean and Hindi.
+- While the LaBSE frameworks performed equally or marginally better in aggregate with both Hindi and LaBSE, they did so at the expense of worsening the recall rate for gains in the precision rate.
+- Notably, both Korean and Hindi achieved the optimal balance in recall and F1 scores using the mBERT model. In addition, the language-agnostic framework did not produce noticeably better results with the Korean data.
+- Our original hypothesis that these languages may have varying benefits due to LaBSE frameworks was not in fact, true.
 
 
 ## References
