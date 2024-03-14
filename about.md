@@ -8,7 +8,6 @@ title: About
 
 
 **Email**: miligera@gmail.com  
-**Cell**: 510-449-2716  
 **LinkedIn**: [miligera](https://www.linkedin.com/in/miligera/)
 
 
