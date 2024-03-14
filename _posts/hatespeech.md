@@ -9,18 +9,18 @@ tags: naturallanguageprocessing
 ![mike](/assets/images/banners/hatespeech.jpg)
 
 ## Purpose
-- 
+- Some purpose here
   
 ## Technique(Statistical Test),Technology, Metric or Statistical Measure
-
+- Some technique here
 
 ## Hypothesis, Data and Results Extracts
 
 ### Hypothesis
-- 
+  - Some hypothesis here
 
 ### Data Overview
-  - 
+  - Some data here
     
 ### Results Overview
-  - 
+  - Some results here
