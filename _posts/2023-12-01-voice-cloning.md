@@ -1,10 +1,13 @@
 ---
 layout: post
 title: Speech-to-Speech Voice Cloning
-subtitle: This is sub
-categories: deeplearning
-tags: [machine learning]
+categories: deeplearning machinelearning
+banner:
+  image: assets/images/banners/mike.jpg
+
+tags: machinelearning deeplearning 
 ---
+
 ## Machine Learning/Deep Learning
 <img align="left" src="assets/images/banners/mike.jpg"/>  
 <br clear="left"/>  
