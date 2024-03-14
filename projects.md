@@ -1,4 +1,4 @@
 ---
 layout: categories
-title: Projects
+title: Projects By Category
 ---
