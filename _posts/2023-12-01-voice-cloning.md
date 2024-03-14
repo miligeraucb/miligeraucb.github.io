@@ -26,22 +26,22 @@ tags: machinelearning deeplearning
   
 ## Technique (Models), Technology, and Metrics
 
-*Technique*
+### Technique
 
-General Approach  
+*General Approach* 
 
 ![General Approach](/assets/images/banners/voice_tech.jpg) 
 
-Baseline Models
+*Baseline Models*
 
 
 ![Baseline Models](/assets/images/banners/voice_baseline.jpg) 
 
-Synthesized Hybrid Model
+*Synthesized Hybrid Model*
 
-![Baseline Models](/assets/images/banners/voice_baseline.jpg) 
+![Baseline Models](/assets/images/banners/voice_hybrid.jpg) 
 
-*Technology*
+### Technology
 - Models used
   - HuBERT
   - TACITRON-2
@@ -52,11 +52,13 @@ Synthesized Hybrid Model
 - Amazon SageMaker Studio
 - Jupyter Notebook
 
-*Metrics*  
+### Metrics  
 - Word Error Rate, Word Information Lost, Mean Opinion Score
   
 ## Results Extract
 
 - Our newly-created hybrid model performs better than open-source baseline model with less data.
-- Our newly-created hybrid model has a higher mean opinion score
+- Our newly-created hybrid model has a higher mean opinion score.
+
+ ![Baseline Models](/assets/images/banners/voice_results.jpg)  
 
