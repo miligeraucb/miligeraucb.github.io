@@ -31,7 +31,7 @@ tags: machinelearning deeplearning
 
 ![General Approach](/assets/images/banners/voice_tech.jpg) 
 
-*Baseline Models*
+*Baseline Model*
 
 
 ![Baseline Models](/assets/images/banners/voice_baseline.jpg) 
