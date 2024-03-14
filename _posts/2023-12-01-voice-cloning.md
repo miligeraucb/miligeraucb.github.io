@@ -3,7 +3,13 @@ layout: post
 title: Speech-to-Speech Voice Cloning
 subtitle: Team members -  Mili Gera, Tian Zhu, YuCheng Liu
 categories: deeplearning machinelearning
-
+banner:
+  image: assets/images/banners/mike.jpg
+  opacity: 0.618
+  background: "#000"
+  height: "10vh"
+  min_height: "10vh"
+  heading_style: "font-size: 4.25em; font-weight: bold; text-decoration: underline"
 excerpt_image: assets/images/banners/mike.jpg
 
 
@@ -11,7 +17,7 @@ tags: machinelearning deeplearning
 ---
 Generate high-quality voice-clones of any target voice.
 
-
+## Purpose
 **<ins>Purpose</ins>**
 
 - Generate high-quality voice clones with minimal voice data.
