@@ -66,6 +66,10 @@ tags: [naturallanguageprocessing, largelanguagemodel, llm, deeplearning, machine
 
 <sup>1</sup> Yang, Yinfei, and Fangxiaoyu Feng. “Language-Agnostic Bert Sentence Embedding.” Google AI Blog, Google Research, 18 Aug, 2020, https://arxiv.org/pdf/2007.01852.pdf
 
+<sup>2</sup>Jay Alammar. “The Illustrated BERT, ELMo, and co. (How NLP Cracked Transfer Learning)”. December 3, 2018, https://jalammar.github.io/illustrated-bert/
+
+<sup>3</sup>Safaya, A., Abdullatif, M. & Yuret D.  “KUISAIL at SemEval-2020 Task12: BERT-CNN for Offensive Speech Identification in Social Media.”arXiv:2007.13184 (2020), https://arxiv.org/abs/2007.13184
+
   
 
 
