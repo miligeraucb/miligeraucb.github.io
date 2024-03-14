@@ -1,12 +1,13 @@
 ---
 layout: post
 title: Hate Speech Detection in Hinglish and Korean Media
+subtitle: Team members - Mili Gera, Jared Dec, Devashish Kulkarni
 categories: [deep learning, machine learning, nlp, large language model]
 excerpt_image: assets/images/banners/hate_speech.jpg
 tags: [naturallanguageprocessing, largelanguagemodel, llm]
 ---
 
-*Team members - Mili Gera, Jared Dec, Devashish Kulkarni*  
+
 ![hatespeech](/assets/images/banners/hate_speech.jpg)  
 
 ## Purpose
