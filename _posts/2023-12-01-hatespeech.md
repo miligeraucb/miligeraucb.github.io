@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Hate Speech Detection in Hinglish and Korean Media
-categories: [deeplearning, machinelearning, NLP]
+categories: [deeplearning, machinelearning, nlp]
 excerpt_image: assets/images/banners/hatespeech.jpg
 tags: naturallanguageprocessing
 ---
