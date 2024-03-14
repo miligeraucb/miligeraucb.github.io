@@ -1,11 +1,12 @@
 ---
 layout: post
 title: Speech-to-Speech Voice Cloning
-subtitle: Team members   Mili Gera, Tian Zhu, YuCheng Liu
 categories: [deeplearning, machinelearning]
 excerpt_image: assets/images/banners/mike.jpg
 tags: [machinelearning, deeplearning]
 ---
+*Team members - Mili Gera, Tian Zhu, YuCheng Liu*  
+
 ![mike](/assets/images/banners/mike.jpg)
  
 
