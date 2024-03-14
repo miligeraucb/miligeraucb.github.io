@@ -12,15 +12,16 @@ tags: [naturallanguageprocessing, largelanguagemodel, llm, deeplearning, machine
 ## Purpose
 
 - There is a need for hate speech detection techniques in languages other than English.
-- Compared the applicability of various transformer based language models on two linguistically different languages (as opposed to maximizing a single metric like an F1 score).
-- Focused the investigation on Hindi, which is close in both cultural expression and linguistic relation to English, and Korean, which has more subtle hate expression and no linguistic relation to Western languages. 
+- Compare the applicability of various transformer based language models on two linguistically different languages (as opposed to maximizing a single metric like an F1 score).
+- Focuse the investigation on Hindi, which is close in both cultural expression and linguistic relation to English, and Korean, which has more subtle hate expression and no linguistic relation to Western languages. 
 
 ## Hypothesis and Data
 
 ### Hypothesis
 
 - Due to cultural and linguistic variations (especially the subtleties seen in Korean hate speech), different model architectures may prove to be the “best-fit” models for Hindi and Korean.
-- Specifically, seeing that out-of-the-box mBERT does not perform well in mapping multilingual sentences of the same meaning to the same vector space, we wanted to see if it would be advantageous to have cross-lingual sentence embeddings which “map” similar meaning sentences from two different languages. This piqued our interest in LaBSE (Language Agnostic BERT Sentence Embedding) to see whether it would better capture Korean subtleties<sup>[1]</sup>.
+- To determine our “best fit” we focused on the question of real world applicability.  We found that even in research papers which shared precision, recall in addition to F1 scores, there was no key discussion around which metric was being used to determine best performance. By contrast, we propose that the key metric of interest in our analysis is the recall score. That is, in a real world application, we would rather over-flag hate speech than miss instances of hate speech, due to its negative psychological effects.
+- Seeing that out-of-the-box mBERT does not perform well in mapping multilingual sentences of the same meaning to the same vector space, we wanted to see if it would be advantageous to have cross-lingual sentence embeddings which “map” similar meaning sentences from two different languages. This piqued our interest in LaBSE (Language Agnostic BERT Sentence Embedding) to see whether it would better capture Korean subtleties<sup>[1]</sup>.
 - Specifically we hypothesized that Korean may see a bigger boost from the chosen mBERT baseline if a language-agnostic NLP model was used.
 
 ### Data
