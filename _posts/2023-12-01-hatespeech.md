@@ -1,28 +1,50 @@
 ---
 layout: post
 title: Hate Speech Detection in Hinglish and Korean Media
-categories: [deeplearning, machinelearning, nlp]
-excerpt_image: assets/images/banners/hatespeech.jpg
-tags: naturallanguageprocessing
+categories: [deep learning, machine learning, nlp, large language model]
+excerpt_image: assets/images/banners/hate_speech.jpg
+tags: [naturallanguageprocessing, largelanguagemodel, llm]
 ---
 
 *Team members - Mili Gera, Jared Dec, Devashish Kulkarni*  
-![hatespeech](/assets/images/banners/hatespeech.jpg)  
-
+![hatespeech](/assets/images/banners/hate_speech.jpg)  
 
 ## Purpose
-- Some purpose here
+- Early
   
-## Technique(Statistical Test),Technology, Metric or Statistical Measure
-- Some technique here
+## Technique (Models),Technology, and Metrics 
 
-## Hypothesis, Data and Results Extracts
+### Technique  
 
-### Hypothesis
-  - Some hypothesis here
+**<ins>*General Approach*</ins>** 
+- hello
+   
+**<ins>*BERT Model*</ins>**  
+- Since one apple/apple leaf can have multiple disease-states associated, multi-label classification strategies were used such as the following:
+  - Labeled Power Set
+  - Classifier Chains
+  - Binary Relevance
 
-### Data Overview
-  - Some data here
-    
-### Results Overview
-  - Some results here
+
+**<ins>*LaBSE Model*</ins>**  
+
+### Technology
+- Models used
+  - LabSE
+  - BERT
+  - CNN
+- Python
+- Keras
+- TensorFlow
+- Jupyter Notebook
+- Google Collab
+
+### Metrics
+- F1 Score
+
+  
+## Results Overview
+
+![Classifier Results](/assets/images/banners/hate_speech.jpg) 
+
+
