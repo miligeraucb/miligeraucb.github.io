@@ -6,15 +6,14 @@ title: About
 
 ## Contact Information
 
-<a href="{{ site.data.social-media.email.href }}{{ site.data.social-media.email.id }}" title="Email me">Click here to send me an email!</a>  
 
 **Email**: miligera@gmail.com  
 **Cell**: 510-449-2716  
-**LinkedIn**: [LinkedIn](https://www.linkedin.com/in/miligera/)
+**LinkedIn**: [miligera](https://www.linkedin.com/in/miligera/)
+
 
  
-   
-<img src="assets/images/banners/linkedin_icon_small.jpg" alt="Linked In Icon">   [LinkedIn](https://www.linkedin.com/in/miligera/)  
+ 
 
 
 
