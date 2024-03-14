@@ -24,9 +24,22 @@ tags: machinelearning deeplearning
    - For those who have lost the ability to speak, generate speech in their own voice using archived audio clips.  
    - Clone celebrity voices for brand expansion and engagement.
   
-## Technique (Model), Technology, and Metrics
+## Technique (Models), Technology, and Metrics
 
 *Technique*
+
+General Approach  
+
+![General Approach](/assets/images/banners/voice_tech.jpg) 
+
+Baseline Models
+
+
+![Baseline Models](/assets/images/banners/voice_baseline.jpg) 
+
+Synthesized Hybrid Model
+
+![Baseline Models](/assets/images/banners/voice_baseline.jpg) 
 
 *Technology*
 - Models used
