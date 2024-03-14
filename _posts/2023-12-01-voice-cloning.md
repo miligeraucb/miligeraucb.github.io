@@ -3,7 +3,7 @@ layout: post
 title: Speech-to-Speech Voice Cloning
 subtitle: This is sub
 categories: deeplearning
-tags: [machine learning], [deep learning]
+tags: [machine learning]
 ---
 ## Machine Learning/Deep Learning
 <img align="left" src="assets/images/banners/mike.jpg"/>  
@@ -11,7 +11,7 @@ tags: [machine learning], [deep learning]
 
 ### Speech-to-Speech Voice Cloning  
 *Team: Mili Gera, Tian Zhu, YuCheng Liu*  
----
+
 **<ins>Purpose</ins>**
 
 - Generate high-quality voice clones with minimal voice data.
