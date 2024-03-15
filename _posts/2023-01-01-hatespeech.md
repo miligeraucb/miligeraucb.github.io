@@ -71,8 +71,9 @@ tags: [NaturalLanguageProcessing, LargeLanguageModel, LLM, DeepLearning, Machine
 
 ## Further Information
 
-**<ins>*Link to Paper*</ins>**
-<a href="https://miligeraucb.github.io/papers/hate_speech.pdf" target="_blank">PDF</a>
+**<ins>*Link to Paper*</ins>**  
+
+- <a href="https://miligeraucb.github.io/papers/hate_speech.pdf" target="_blank">PDF</a>
 
 **<ins>*Other Information*</ins>**
 - Code available on request.
