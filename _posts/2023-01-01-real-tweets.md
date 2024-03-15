@@ -2,9 +2,9 @@
 layout: post
 title: Real-Time Climate Change Insights From Twitter Stream
 subtitle: Team members - Mili Gera, Devashish Kulkarni, Heesuk Jang, Matt Whittaker
-categories: [etl, data engineering, api, google cloud platform]
+categories: [ETL, Data Engineering, API, Google Cloud Platform]
 excerpt_image: assets/images/banners/twitter.jpg
-tags: etl, datapipeline
+tags: ETL, DataPipeline
 ---
 ![twitter](/assets/images/banners/twitter.jpg)
 
