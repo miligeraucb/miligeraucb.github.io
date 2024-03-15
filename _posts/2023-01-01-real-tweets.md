@@ -40,13 +40,15 @@ tags: ETL, DataPipeline
    
 ## Results Overview
 
-**<ins>*Climate Question Synopsis*</ins>**
-![twitter results one](/assets/images/banners/climate_res_one_tech.jpg)
+**<ins>*Climate Question Synopsis*</ins>**  
 
-![twitter results two](/assets/images/banners/climate_res_two_.jpg)
+![twitter results one](/assets/images/banners/climate_res_one.jpg)
 
-- Question 8
-  - Subsetting the data set for tweets that contain #HapenningNow or #Happening, we find that only 0.0408% of the tweets contain one of these hashtags. This suggests that a very small fraction of tweets are regarding ongoing events or actual action.
+![twitter results two](/assets/images/banners/climate_res_two.jpg)
+
+**Q8: What percentage of tweets contain the hastags happeningnow or happening?**  
+
+Subsetting the data set for tweets that contain #HapenningNow or #Happening, we find that only 0.0408% of the tweets contain one of these hashtags. This suggests that a very small fraction of tweets are regarding ongoing events or actual action
 
 
 **<ins>*Discussion*</ins>**  
