@@ -73,7 +73,7 @@ tags: [NaturalLanguageProcessing, LargeLanguageModel, LLM, DeepLearning, Machine
 
 **<ins>*Link to Paper*</ins>**  
 
-- <a href="https://miligeraucb.github.io/papers/hate_speech.pdf" target="_blank">PDF</a>
+- <a href="https://miligeraucb.github.io/papers/Hate Speech Detection in Hinglish and Korean Media.pdf" target="_blank">PDF</a>
 
 **<ins>*Other Information*</ins>**
 - Code available on request.
