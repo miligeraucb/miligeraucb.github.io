@@ -51,7 +51,7 @@ tags: ETL, DataPipeline
 Subsetting the data set for tweets that contain #HapenningNow or #Happening, we find that only 0.0408% of the tweets contain one of these hashtags. This suggests that a very small fraction of tweets are regarding ongoing events or actual action
 
 **<ins>*Discussion*</ins>**  
-In the course of this project, we have built a data pipeline that is capable to receving and structuring customized tweet data from the twitter API.  Specifically, we capture tweets related to climate change and use Kafka, Spark, Hadoop and Presto as the tools to construct the pipeline, where each of the tools is spun up as a container using docker-compose. The pipeline is capable of receiving tweets in real-time in streaming fashion from the creation of the tweets on twitter upto storing the tweet data into HDFS as a table. By querying the table, we are able to create vizualizations that aid in answering the business questions that motivate this project.
+- In the course of this project, we have built a data pipeline that is capable to receving and structuring customized tweet data from the twitter API.  Specifically, we capture tweets related to climate change and use Kafka, Spark, Hadoop and Presto as the tools to construct the pipeline, where each of the tools is spun up as a container using docker-compose. The pipeline is capable of receiving tweets in real-time in streaming fashion from the creation of the tweets on twitter upto storing the tweet data into HDFS as a table. By querying the table, we are able to create vizualizations that aid in answering the business questions that motivate this project.
 
 ## Further Information
 - Code and further details available on request.
