@@ -70,7 +70,12 @@ tags: [NaturalLanguageProcessing, LargeLanguageModel, LLM, DeepLearning, Machine
 - Our original hypothesis that these languages may have varying benefits due to LaBSE frameworks was not in fact, true.
 
 ## Further Information
-- Code and full paper available on request.
+
+**<ins>*Link to Paper*</ins>**
+<a href="https://miligeraucb.github.io/papers/hate_speech.pdf" target="_blank">PDF</a>
+
+**<ins>*Other Information*</ins>**
+- Code available on request.
 
 ## References
 <sup>1</sup> Yang, Yinfei, and Fangxiaoyu Feng. “Language-Agnostic Bert Sentence Embedding.” Google AI Blog, Google Research, 18 Aug, 2020, https://arxiv.org/pdf/2007.01852.pdf
