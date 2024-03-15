@@ -12,7 +12,7 @@ tags: ETL, DataPipeline
 - Twitter has become a prominent source of real-time content, yet lacks the ability to perform Tweet analytics beyond the limited web user interface.
 - Create a data pipeline to gather tweets based on customizable filtering rules and criteria.
 - For the purpose of this project, the focus was to gather insights on tweets related to climate change.
--  Climate change is a very important topic in today's politics, both in the US and around the world. It is potentially the biggest existential challenge that humans have ever faced. In addition, it is also a controversial topic, with ideas for addressing it ranging from fundamental tranformation of world economies to completely ignoring it. Hence, understanding what people are saying about climate change could be of interest to political parties, environmental groups and corporations.
+- Climate change is a very important topic in today's politics, both in the US and around the world. It is potentially the biggest existential challenge that humans have ever faced. In addition, it is also a controversial topic, with ideas for addressing it ranging from fundamental tranformation of world economies to completely ignoring it. Hence, understanding what people are saying about climate change could be of interest to political parties, environmental groups and corporations.
 - The analysis of the twitter data in this project seeks to answer the following questions related to climate change:
   - What are the most frequently used words in the entire set of tweets?
   - What are the frequently used words in the top 100 most retweeted tweets?
@@ -50,10 +50,11 @@ tags: ETL, DataPipeline
 
 Subsetting the data set for tweets that contain #HapenningNow or #Happening, we find that only 0.0408% of the tweets contain one of these hashtags. This suggests that a very small fraction of tweets are regarding ongoing events or actual action
 
-
 **<ins>*Discussion*</ins>**  
+In the course of this project, we have built a data pipeline that is capable to receving and structuring customized tweet data from the twitter API.  Specifically, we capture tweets related to climate change and use Kafka, Spark, Hadoop and Presto as the tools to construct the pipeline, where each of the tools is spun up as a container using docker-compose. The pipeline is capable of receiving tweets in real-time in streaming fashion from the creation of the tweets on twitter upto storing the tweet data into HDFS as a table. By querying the table, we are able to create vizualizations that aid in answering the business questions that motivate this project.
 
-In the course of this project, we have built a data pipeline that is capable to receving customized tweet data from twitter API.  Specifically, we capture tweets related to climate change and use Kafka, Spark, Hadoop and Presto as the tools to construct the pipeline, where each of the tools is spun up as a container using docker-compose. The pipeline is capable of receiving tweets in real-time in streaming fashion from the creation of the tweets on twitter upto storing the tweet data into HDFS as a table. By querying the table, we are able to create vizualizations that aid in answering the business questions that motivate this project.
+## Further Information
+- Code and further details available on request.
 
 
 
