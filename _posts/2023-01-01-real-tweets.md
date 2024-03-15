@@ -16,8 +16,8 @@ tags: ETL, DataPipeline
 - The analysis of the twitter data in this project seeks to answer the following questions related to climate change:
   - What are the most frequently used words in the entire set of tweets?
   - What are the frequently used words in the top 100 most retweeted tweets?
-  - What are the top 5 most active usernames?
   - What are the top 5 most trending hastags?
+  - What are the top 5 most active usernames?
   - What are the top 10 most retweeted tweets?
   - What fraction of retweets, likes and replies are from tweets with a URL in them, compared to tweets without a URL?
   - What fraction of retweets, likes and replies are from tweets with a hashtag, compared to tweets without a hashtag?
@@ -40,7 +40,19 @@ tags: ETL, DataPipeline
    
 ## Results Overview
 
-## Paper Link
+**<ins>*Climate Question Synopsis*</ins>**
+![twitter results one](/assets/images/banners/climate_res_one_tech.jpg)
+
+![twitter results two](/assets/images/banners/climate_res_two_.jpg)
+
+- Question 8
+  - Subsetting the data set for tweets that contain #HapenningNow or #Happening, we find that only 0.0408% of the tweets contain one of these hashtags. This suggests that a very small fraction of tweets are regarding ongoing events or actual action.
+
+
+**<ins>*Discussion*</ins>**  
+
+In the course of this project, we have built a data pipeline that is capable to receving customized tweet data from twitter API.  Specifically, we capture tweets related to climate change and use Kafka, Spark, Hadoop and Presto as the tools to construct the pipeline, where each of the tools is spun up as a container using docker-compose. The pipeline is capable of receiving tweets in real-time in streaming fashion from the creation of the tweets on twitter upto storing the tweet data into HDFS as a table. By querying the table, we are able to create vizualizations that aid in answering the business questions that motivate this project.
+
 
 
 
