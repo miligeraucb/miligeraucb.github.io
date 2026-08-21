@@ -861,9 +861,7 @@ footer {
   }
 
   .nav {
-    display: flex;
-    gap: 12px;
-    font-size: 11px;
+    display: none;
   }
 
   .section {
