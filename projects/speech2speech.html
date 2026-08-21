@@ -1,0 +1,110 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>speech to speech voice cloning — Mili Gera</title>
+    <link rel="stylesheet" href="../css/style.css">
+</head>
+
+<body>
+    <header class="site-header">
+        <a class="brand" href="../index.html">Mili Gera</a>
+        <a class="nav-cta" href="../index.html#academic-projects">← Back</a>
+    </header>
+    <main>
+        <section class="section">
+            <span class="section-kicker">PROJECT / SPEECH TO SPEECH CLONING</span>
+            <div class="tags">
+                <span>#DeepLearning</span>
+                <span>#MachineLearning</span>
+                <span>#GenerativeAI</span>
+            </div>
+            <h1 style="font-size: clamp(50px, 6vw, 100px); line-height: .95; letter-spacing: -.06em; text-transform: capitalize;">
+                Speech-to-Speech Voice Cloning
+            </h1>
+            <div class="hero-copy">
+                <ul>
+                    <li>Generate high-quality voice clones with minimal voice data.</li>
+                    <li>Synthesize a new hybrid model for voice cloning and test performance against an open-source baseline model.</li>
+                    <li>Some use cases include the following:
+                        <ul>
+                            <li>For those who have lost the ability to speak, generate speech in their own voice using archived audio clips.</li>
+                            <li>Clone celebrity voices for brand expansion and engagement.</li>
+                        </ul>
+                    </li>
+                </ul>
+            </div>
+        </section>
+
+        <!-- PROJECT CONTENT -->
+        <section class="section project-content">
+            <h2>TECHNIQUE (Models), Technology & Metrics</h2>
+
+            <h3>Technique</h3>
+            <h4>General Approach</h4>
+            <!-- IMAGE -->
+            <figure id="voice-tech">
+                <img src="../images/voice_tech_small.jpg" alt="speech to speech tech">
+                <figcaption>General Approach</figcaption>
+            </figure>
+
+            <h4>Baseline Model</h4>
+            <!-- IMAGE -->
+            <figure id="voice-baseline-model">
+                <img src="../images/voice_baseline_small.jpg" alt="speech to speech baseline model">
+                <figcaption>Baseline Model</figcaption>
+            </figure>
+
+            <h4>Synthesized Hybrid Model</h4>
+            <!-- IMAGE -->
+            <figure id="voice-hybrid-model">
+                <img src="../images/voice_hybrid_small.jpg" alt="speech to speech hybrid model">
+                <figcaption>Synthesized Hybrid Model</figcaption>
+            </figure>
+            
+            <h3>Technology</h3>
+            <ul>
+                <li>Models used
+                    <ul>
+                        <li>HuBERT</li>
+                        <li>TACITRON-2</li>
+                        <li>Hi-Fi GAN</li>
+                        <li>Combined HuBERT and VITS model(our team created a new hybrid model)</li>
+                    </ul>
+                </li>
+                <li>Python</li>
+                <li>Amazon Web Services(AWS)</li>
+                <li>Amazon SageMaker Studio</li>
+                <li>Jupyter Notebook</li>
+            </ul>
+
+            <h3>Metrics</h3>
+            <ul>
+                <li>Word Error Rate</li>
+                <li>Word Information Lost</li>
+                <li>Mean Opinion Score</li>
+            </ul>
+
+            <h2>Results Overview</h2>
+            <!-- IMAGE -->
+            <figure>
+                <img src="../images/voice_results_small.jpg" alt="speech to speech results">
+                <figcaption>Results Overview</figcaption>
+            </figure>   
+
+            <h3>Discussion</h3>
+            <ul>
+                <li>Our newly-created hybrid model performs better than open-source baseline model with less data.</li>
+                <li>Our newly-created hybrid model has a higher mean opinion score.</li>
+            </ul>
+
+            <!-- Further Information -->
+            <p class="project-note">
+                <code>Note:</code> Code, voice samples, and other details are available on request.
+            </p>
+        </section>        
+    </main>
+</body>
+</html>
