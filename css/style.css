@@ -63,17 +63,37 @@ a {
   gap: 25px;
   font-size: 13px;
   font-weight: 700;
+  position: relative;
 }
 
-.nav a:hover,
+.nav a {
+  position: relative;
+  transition: color 0.2s ease;
+}
+
+.nav a:hover {
+  color: #6f861c;
+}
+
 .text-link:hover,
 .about-links a:hover {
   opacity: 0.55;
 }
 
+
 .nav-cta {
   font-size: 13px;
   font-weight: 700;
+}
+
+.nav-progress {
+  position: absolute;
+  bottom: -10px;
+  left: 0;
+  height: 3px;
+  width: 0;
+  background: #6f861c;
+  transition: width 0.35s ease;
 }
 
 /* =========================

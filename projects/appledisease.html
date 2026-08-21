@@ -23,11 +23,13 @@
                 <span>#CNN</span>
                 <span>#KNN</span>
             </div>
-            <h1 style="font-size: clamp(50px, 6vw, 100px); line-height: .95; letter-spacing: -.06em; text-transform: capitalize;">
+            <h1
+                style="font-size: clamp(50px, 6vw, 100px); line-height: .95; letter-spacing: -.06em; text-transform: capitalize;">
                 Apple Disease Detection Using Leaf Symptomatology & Image Classifiers
             </h1>
             <p class="hero-copy">
-                Early detection of disease in apple orchards can positively impact the US apple industry which suffers millions of dollars in loss due to various disease states.
+                Early detection of disease in apple orchards can positively impact the US apple industry which suffers
+                millions of dollars in loss due to various disease states.
             </p>
         </section>
 
@@ -38,13 +40,16 @@
             <h4>General Approach</h4>
             <ul>
                 <li>Apple leaves reveal various disease states such as “powdery mildew”, and “apple scab”.</li>
-                <li>Train various classifier models on pre-labeled images of diseased and disease-free apple leaves.</li>
-                <li>Use trained model to classify disease-state in leaf images obtained by drones or vehicles surveying orchards.</li>
+                <li>Train various classifier models on pre-labeled images of diseased and disease-free apple leaves.
+                </li>
+                <li>Use trained model to classify disease-state in leaf images obtained by drones or vehicles surveying
+                    orchards.</li>
             </ul>
 
             <h4>KNN Classifier Model</h4>
             <ul>
-                <li>Since one apple/apple leaf can have multiple disease-states associated, multi-label classification strategies were used such as the following:
+                <li>Since one apple/apple leaf can have multiple disease-states associated, multi-label classification
+                    strategies were used such as the following:
                     <ul>
                         <li>Labeled Power Set</li>
                         <li>Classifier Chains</li>
@@ -55,7 +60,8 @@
 
             <h4>Logistic Regression Model</h4>
             <ul>
-                <li>Since one apple/apple leaf can have multiple disease-states associated, multi-label classification strategies were used such as the following:
+                <li>Since one apple/apple leaf can have multiple disease-states associated, multi-label classification
+                    strategies were used such as the following:
                     <ul>
                         <li>Labeled Power Set</li>
                         <li>Classifier Chains</li>
@@ -107,16 +113,18 @@
             <figure>
                 <img src="../images/class_results_small.jpg" alt="KNN Results">
                 <figcaption>KNN & Logistic Regression Results</figcaption>
-            </figure>   
+            </figure>
             <figure>
-                <img src="../images/cnn_results_small.jpg"  alt="CNN Results">
+                <img src="../images/cnn_results_small.jpg" alt="CNN Results">
                 <figcaption>Final CNN Model Results</figcaption>
             </figure>
 
             <h3>Discussion</h3>
             <ul>
                 <li>Of all the models, the CNN model performed best with metrics as shown in the image above.</li>
-                <li>At the time of the experiment, our accuracy rate of 90%+ was highly competitive as compared to the <a href="https://www.kaggle.com/c/plant-pathology-2021-fgvc8/leaderboard">Plant Pathology 2021 - FGVC8 Competition</a> posted on kaggle.</li>
+                <li>At the time of the experiment, our accuracy rate of 90%+ was highly competitive as compared to the
+                    <a href="https://www.kaggle.com/c/plant-pathology-2021-fgvc8/leaderboard">Plant Pathology 2021 -
+                        FGVC8 Competition</a> posted on kaggle.</li>
 
             </ul>
 
@@ -124,7 +132,8 @@
             <p class="project-note">
                 <code>Note:</code> Code and other details are available on request.
             </p>
-        </section>        
+        </section>
     </main>
 </body>
+
 </html>

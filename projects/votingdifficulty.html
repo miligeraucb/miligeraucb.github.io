@@ -20,11 +20,13 @@
                 <span>#Statistics</span>
                 <span>#WilcoxonRankSum</span>
             </div>
-            <h1 style="font-size: clamp(50px, 6vw, 100px); line-height: .95; letter-spacing: -.06em; text-transform: capitalize;">
+            <h1
+                style="font-size: clamp(50px, 6vw, 100px); line-height: .95; letter-spacing: -.06em; text-transform: capitalize;">
                 Detecting Voting Difficulty in the 2020 US Elections Through Statistical Analysis
             </h1>
             <p class="hero-copy">
-                A statisitical analysis to determine if Democratic voters or Republican voters report experiencing more difficulty voting in the 2020 election.
+                A statisitical analysis to determine if Democratic voters or Republican voters report experiencing more
+                difficulty voting in the 2020 election.
             </p>
         </section>
 
@@ -34,7 +36,10 @@
 
             <h3>Hypothesis</h3>
             <ul>
-                <li>The null hypothesis was that Democrats and Republicans reported an equal amount of difficulty in voting in the 2020 election. Stated more formally, if we think about level of difficulty for Republicans as the variable X and difficulty for Democrats as variable Y, then the null hypothesis would be that P(X<Y) = P(X>Y).</li>
+                <li>The null hypothesis was that Democrats and Republicans reported an equal amount of difficulty in
+                    voting in the 2020 election. Stated more formally, if we think about level of difficulty for
+                    Republicans as the variable X and difficulty for Democrats as variable Y, then the null hypothesis
+                    would be that P(X<Y)=P(X>Y).</li>
             </ul>
 
             <h3>Data Overview</h3>
@@ -51,14 +56,24 @@
 
             <h2>Results Overview</h2>
             <ul>
-                <li>Results for the Wilcoxon Rank Sum test showed a p-value of .01578. This value exceeds the threshold of rejection of the null (which is at 0.05). Therefore, per the p value we can reject the null hypothesis. In other words, we can say that Republicans and Democrats had a differing level of reported difficulty in voting. Note that the response variable was in the form of a Likert score (indicating rank ties) and the sample size was large. Therefore, normal approximation could have been used so the Z-score was examined. Here the only assumption is that the sampling distribution of the W statistic obtained from the Wilcoxon Rank Sum test is normal and not the data itself. The Z-Score value of 2.413971 also supported the earlier determination that we can reject the null hypothesis as it does exceed the rejection value of 1.96 or greater. Next practical significance was tested using the Spearman method.</li>
+                <li>Results for the Wilcoxon Rank Sum test showed a p-value of .01578. This value exceeds the threshold
+                    of rejection of the null (which is at 0.05). Therefore, per the p value we can reject the null
+                    hypothesis. In other words, we can say that Republicans and Democrats had a differing level of
+                    reported difficulty in voting. Note that the response variable was in the form of a Likert score
+                    (indicating rank ties) and the sample size was large. Therefore, normal approximation could have
+                    been used so the Z-score was examined. Here the only assumption is that the sampling distribution of
+                    the W statistic obtained from the Wilcoxon Rank Sum test is normal and not the data itself. The
+                    Z-Score value of 2.413971 also supported the earlier determination that we can reject the null
+                    hypothesis as it does exceed the rejection value of 1.96 or greater. Next practical significance was
+                    tested using the Spearman method.</li>
             </ul>
 
             <!-- Further Information -->
             <p class="project-note">
                 <code>Note:</code> Code and other details are available on request.
             </p>
-        </section>        
+        </section>
     </main>
 </body>
+
 </html>

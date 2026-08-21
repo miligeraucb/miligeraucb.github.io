@@ -15,17 +15,28 @@
         <section class="section"><span class="section-kicker">PROJECT / AURA - VOICE AAC APP</span>
             <h1 style="font-size:clamp(50px,8vw,100px);line-height:.95;letter-spacing:-.06em;text-transform:capitalize">
                 Aura - An Augmentative and Alternative Communication (AAC) Application </h1>
-            <p class="hero-copy">A local voice cloning and speech generation tool built for augmentative communication.</p>
+            <p class="hero-copy">A local voice cloning and speech generation tool built for augmentative communication.
+            </p>
         </section>
 
         <section class="section project-content">
             <h2>What it is</h2>
-            <p>Aura is a local-first text-to-speech application built for people who have lost their ability to speak. Unlike most voice-assistive tools, it runs entirely on-device — no internet connection, API key, or subscription required. A person can clone their own voice (or a loved one's) from a short audio sample and use it to communicate through natural-sounding speech, generated in seconds, on hardware as modest as an 8GB Apple Silicon Mac.</p>
-                
-            <p>The app is built around the realities of assistive communication: speed, reliability, and dignity. It integrates natively with macOS accessibility features, so it fits into a person's existing workflow rather than asking them to adopt a new one. Frequently used phrases and screens are fully customizable, allowing a user (or a caregiver) to tailor the interface around real conversations — ordering food, greeting family, answering the phone — instead of generic canned responses.</p>
-                
-            <p>Because it runs locally, Aura works when Wi-Fi doesn't, keeps voice data on the user's own machine rather than a company's servers, and has no recurring cost. It is offered free and non-commercial, built specifically for families who need it rather than as a product to monetize.</p>
-            
+            <p>Aura is a local-first text-to-speech application built for people who have lost their ability to speak.
+                Unlike most voice-assistive tools, it runs entirely on-device — no internet connection, API key, or
+                subscription required. A person can clone their own voice (or a loved one's) from a short audio sample
+                and use it to communicate through natural-sounding speech, generated in seconds, on hardware as modest
+                as an 8GB Apple Silicon Mac.</p>
+
+            <p>The app is built around the realities of assistive communication: speed, reliability, and dignity. It
+                integrates natively with macOS accessibility features, so it fits into a person's existing workflow
+                rather than asking them to adopt a new one. Frequently used phrases and screens are fully customizable,
+                allowing a user (or a caregiver) to tailor the interface around real conversations — ordering food,
+                greeting family, answering the phone — instead of generic canned responses.</p>
+
+            <p>Because it runs locally, Aura works when Wi-Fi doesn't, keeps voice data on the user's own machine rather
+                than a company's servers, and has no recurring cost. It is offered free and non-commercial, built
+                specifically for families who need it rather than as a product to monetize.</p>
+
             <h3>Core Capabilities</h3>
             <ul>
                 <li>Local voice cloning from a short audio sample</li>
@@ -37,12 +48,30 @@
             </ul>
 
             <h2>Why it was built this way</h2>
-            <p>Every technical decision in Aura traces back to a single constraint: the people who need it most often can't afford friction, cost, or uncertainty.</p>
-            <p>Local-first, not cloud-first. Commercial voice-cloning tools are typically cloud APIs — they require a subscription, a stable internet connection, and a willingness to send a recording of someone's voice to a third-party server. For someone who has lost their ability to speak, an outage or a lapsed payment isn't an inconvenience — it's the loss of their voice at the moment they need it. Running the model locally means Aura works during a power outage, in a hospital with poor Wi-Fi, or years from now regardless of whether a company is still in business.</p>
-            <p>Small model, real hardware. Voice cloning research is dominated by large models tuned for GPU clusters. Aura was deliberately built and tested against the hardware people already own — an 8GB RAM Apple Silicon Mac — because assistive technology that requires a $3,000 machine isn't accessible technology. This meant real engineering trade-offs: evaluating multiple open TTS models for the balance of generation speed, voice fidelity, and memory footprint under real memory pressure, and building phrase-level and voice-embedding caching so repeated phrases generate near-instantly instead of re-running inference every time.</p>
-            <p>Privacy by architecture, not by policy. A cloned voice is about as personal as data gets. Rather than relying on a privacy policy, Aura is built so the voice model and audio never leave the device — privacy is a property of the architecture, not a promise.</p>
-            <p>Customization over defaults. Communication needs are personal and situational. A rigid set of prebuilt phrases would force people to talk the way the software expects them to, rather than the way they actually communicate. Aura's phrase library and screens are editable so the tool adapts to the person, not the reverse.</p>
-            <p>Free and non-commercial. This was built for families, not as a business. Keeping it free removes the one barrier — cost — that has nothing to do with whether someone needs it.</p>
+            <p>Every technical decision in Aura traces back to a single constraint: the people who need it most often
+                can't afford friction, cost, or uncertainty.</p>
+            <p><strong>Local-first, not cloud-first.</strong> Commercial voice-cloning tools are typically cloud APIs — they require a
+                subscription, a stable internet connection, and a willingness to send a recording of someone's voice to
+                a third-party server. For someone who has lost their ability to speak, an outage or a lapsed payment
+                isn't an inconvenience — it's the loss of their voice at the moment they need it. Running the model
+                locally means Aura works during a power outage, in a hospital with poor Wi-Fi, or years from now
+                regardless of whether a company is still in business.</p>
+            <p><strong>Small model, real hardware.</strong> Voice cloning research is dominated by large models tuned for GPU clusters.
+                Aura was deliberately built and tested against the hardware people already own — an 8GB RAM Apple
+                Silicon Mac — because assistive technology that requires a $3,000 machine isn't accessible technology.
+                This meant real engineering trade-offs: evaluating multiple open TTS models for the balance of
+                generation speed, voice fidelity, and memory footprint under real memory pressure, and building
+                phrase-level and voice-embedding caching so repeated phrases generate near-instantly instead of
+                re-running inference every time.</p>
+            <p><strong>Privacy by architecture, not by policy.</strong> A cloned voice is about as personal as data gets. Rather than
+                relying on a privacy policy, Aura is built so the voice model and audio never leave the device — privacy
+                is a property of the architecture, not a promise.</p>
+            <p><strong>Customization over defaults.</strong> Communication needs are personal and situational. A rigid set of prebuilt
+                phrases would force people to talk the way the software expects them to, rather than the way they
+                actually communicate. Aura's phrase library and screens are editable so the tool adapts to the person,
+                not the reverse.</p>
+            <p><strong>Free and non-commercial.</strong> This was built for families, not as a business. Keeping it free removes the one
+                barrier — cost — that has nothing to do with whether someone needs it.</p>
 
         </section>
     </main>
