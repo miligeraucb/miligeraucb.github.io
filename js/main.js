@@ -24,25 +24,28 @@ const navProgress = document.querySelector(".nav-progress");
 const navObserver = new IntersectionObserver(
   (entries) => {
     entries.forEach((entry) => {
-      if (entry.isIntersecting) {
-        const activeLink = document.querySelector(
-          `.nav a[href="#${entry.target.id}"]`,
-        );
+      if (!entry.isIntersecting) return;
 
-        if (activeLink && navProgress) {
-          const navRect = activeLink.parentElement.getBoundingClientRect();
-          const linkRect = activeLink.getBoundingClientRect();
+      const sectionId = entry.target.id;
+      const activeLink = document.querySelector(
+        `.nav a[href="#${sectionId}"]`,
+      );
 
-          // Extend the line from the first nav item
-          // to the center of the current section's nav item
-          const progressWidth =
-            linkRect.left -
-            navRect.left +
-            linkRect.width / 2;
+      if (!activeLink || !navProgress) return;
 
-          navProgress.style.width = `${progressWidth}px`;
-        }
-      }
+      // Move the progress line
+      const navRect = activeLink.parentElement.getBoundingClientRect();
+      const linkRect = activeLink.getBoundingClientRect();
+
+      const progressWidth =
+        linkRect.left -
+        navRect.left +
+        linkRect.width / 2;
+
+      navProgress.style.width = `${progressWidth}px`;
+
+      // Update the URL as the user scrolls
+      history.replaceState(null, "", `#${sectionId}`);
     });
   },
   {

@@ -75,6 +75,14 @@ a {
   color: #6f861c;
 }
 
+.nav a:focus,
+.nav a:focus-visible,
+.nav a:active {
+
+  color: inherit;
+
+}
+
 .text-link:hover,
 .about-links a:hover {
   opacity: 0.55;
