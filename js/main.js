@@ -21,36 +21,65 @@ const sections = document.querySelectorAll("section[id]");
 const navLinks = document.querySelectorAll(".nav a");
 const navProgress = document.querySelector(".nav-progress");
 
-const navObserver = new IntersectionObserver(
-  (entries) => {
-    entries.forEach((entry) => {
-      if (!entry.isIntersecting) return;
+function updateNavigation() {
+  const scrollY = window.scrollY;
 
-      const sectionId = entry.target.id;
-      const activeLink = document.querySelector(
-        `.nav a[href="#${sectionId}"]`,
-      );
+  // At the very top of the page, remove the hash
+  if (scrollY < 50) {
+    history.replaceState(null, "", window.location.pathname);
+    
+    if (navProgress) {
+      navProgress.style.width = "0px";
+    }
 
-      if (!activeLink || !navProgress) return;
+    return;
+  }
 
-      // Move the progress line
-      const navRect = activeLink.parentElement.getBoundingClientRect();
-      const linkRect = activeLink.getBoundingClientRect();
+  // Find the section currently closest to the top of the viewport
+  let currentSection = null;
+  let closestDistance = Infinity;
 
-      const progressWidth =
-        linkRect.left -
-        navRect.left +
-        linkRect.width / 2;
+  sections.forEach((section) => {
+    const rect = section.getBoundingClientRect();
+    const distance = Math.abs(rect.top - 120);
 
-      navProgress.style.width = `${progressWidth}px`;
+    if (rect.top <= 160 && distance < closestDistance) {
+      closestDistance = distance;
+      currentSection = section;
+    }
+  });
 
-      // Update the URL as the user scrolls
-      history.replaceState(null, "", `#${sectionId}`);
-    });
-  },
-  {
-    rootMargin: "-35% 0px -55% 0px",
-  },
-);
+  if (!currentSection) return;
 
-sections.forEach((section) => navObserver.observe(section));
+  const sectionId = currentSection.id;
+
+  const activeLink = document.querySelector(
+    `.nav a[href="#${sectionId}"]`,
+  );
+
+  if (!activeLink) return;
+
+  // Move the progress line
+  if (navProgress) {
+    const navRect = activeLink.parentElement.getBoundingClientRect();
+    const linkRect = activeLink.getBoundingClientRect();
+
+    const progressWidth =
+      linkRect.left -
+      navRect.left +
+      linkRect.width / 2;
+
+    navProgress.style.width = `${progressWidth}px`;
+  }
+
+  // Update URL only if it has actually changed
+  if (window.location.hash !== `#${sectionId}`) {
+    history.replaceState(null, "", `#${sectionId}`);
+  }
+}
+
+// Update while scrolling
+window.addEventListener("scroll", updateNavigation, { passive: true });
+
+// Update once when page loads
+updateNavigation();
